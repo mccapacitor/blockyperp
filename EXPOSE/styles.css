@@ -1,0 +1,41 @@
+body {
+  background-image: url("ExposeFiles/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace, monospace;
+  color: #00ff00;
+}
+
+.EXPOSED {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 90vh;
+  overflow-y: auto;
+  padding: 2rem;
+  background-color: #000;
+  color: #00ff00;
+  border: 2px solid #00ff00;
+  box-shadow: 0 0 20px #00ff00;
+  max-width: 800px;
+  width: 90%;
+  box-sizing: border-box;
+  text-align: center;
+}
+.Music {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  background-color: #000;
+  color: lime;
+  padding: 1rem;
+  border: 2px solid lime;
+  box-shadow: 0 0 10px lime;
+  font-family: monospace;
+  text-align: center;
+  max-width: 200px;
+  overflow-wrap: break-word;
+}
